@@ -1,12 +1,12 @@
-# *Micha≥ Cho≥ka, 186444*
+Ôªø# *Micha≈Ç Cho≈Çka, 186444*
 
 ---
 
-## Do przyk≥adÛw wykorzysta≥em bazy car_market oraz kody_pocztowe
+## Do przyk≈Çad√≥w wykorzysta≈Çem bazy car_market oraz kody_pocztowe
 
 ## Map reduce
 
-### IloúÊ modeli poszczegÛlnych marek droøszych niø 30k dolarÛw
+### Ilo≈õƒá modeli poszczeg√≥lnych marek dro≈ºszych ni≈º 30k dolar√≥w
 
 ### Funkcja map
 
@@ -34,7 +34,7 @@ var count = 0;
 
 ```
 
-### Wywo≥anie mapReduce
+### Wywo≈Çanie mapReduce
 
 ```js
 
@@ -192,7 +192,7 @@ var result = db.car_market.mapReduce(map, reduce, {out: {inline: 1}});
 
 ```
 
-## IloúÊ kodÛw pocztowych w poszczegÛlnych wojewÛdztwach
+## Ilo≈õƒá kod√≥w pocztowych w poszczeg√≥lnych wojew√≥dztwach
 
 ### Funkcja map
 
@@ -214,7 +214,7 @@ var reduce = function (key, values) {
 
 ```
 
-### Wywo≥anie mapReduce
+### Wywo≈Çanie mapReduce
 
 ```js
 
@@ -229,7 +229,7 @@ var result = db.car_market.mapReduce(map, reduce, {out: {inline: 1}});
         "results" : [
                 {
                         "_id" : {
-                                "wojewodztwo" : "dolnoúlπskie"
+                                "wojewodztwo" : "dolno≈õlƒÖskie"
                         },
                         "value" : 9529
                 },
@@ -259,7 +259,7 @@ var result = db.car_market.mapReduce(map, reduce, {out: {inline: 1}});
                 },
                 {
                         "_id" : {
-                                "wojewodztwo" : "ma≥opolskie"
+                                "wojewodztwo" : "ma≈Çopolskie"
                         },
                         "value" : 8063
                 },
@@ -289,7 +289,7 @@ var result = db.car_market.mapReduce(map, reduce, {out: {inline: 1}});
                 },
                 {
                         "_id" : {
-                                "wojewodztwo" : "warmiÒsko-mazurskie"
+                                "wojewodztwo" : "warmi≈Ñsko-mazurskie"
                         },
                         "value" : 5460
                 },
@@ -307,19 +307,19 @@ var result = db.car_market.mapReduce(map, reduce, {out: {inline: 1}});
                 },
                 {
                         "_id" : {
-                                "wojewodztwo" : "≥Ûdzkie"
+                                "wojewodztwo" : "≈Ç√≥dzkie"
                         },
                         "value" : 9968
                 },
                 {
                         "_id" : {
-                                "wojewodztwo" : "úlπskie"
+                                "wojewodztwo" : "≈õlƒÖskie"
                         },
                         "value" : 15535
                 },
                 {
                         "_id" : {
-                                "wojewodztwo" : "úwiÍtokrzyskie"
+                                "wojewodztwo" : "≈õwiƒôtokrzyskie"
                         },
                         "value" : 4819
                 }

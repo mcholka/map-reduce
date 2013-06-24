@@ -1,4 +1,4 @@
-// IloúÊ kodÛw pocztowych w poszczegÛlnych wojewÛdztwach
+Ôªø// Ilo≈õƒá kod√≥w pocztowych w poszczeg√≥lnych wojew√≥dztwach
 
 var map = function() {
     emit({wojewodztwo: this.wojewodztwo}, 1);
@@ -10,7 +10,7 @@ var reduce = function (key, values) {
 
 var result = db.kody_pocztowe.mapReduce(map, reduce, {out: {inline: 1}});
 
-// IloúÊ modeli poszczegÛlnych marek droøszych niø 30k > dolarÛw
+// Ilo≈õƒá modeli poszczeg√≥lnych marek dro≈ºszych ni≈º 30k > dolar√≥w
 var map1 = function() {
     emit(this.make, this.price);
 };
