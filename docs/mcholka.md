@@ -120,7 +120,7 @@ var result = db.car_market.mapReduce(map, reduce, {out: {inline: 1}});
                         "value" : 1
                 },
                 {
-                        "_id" : "mercedes-ben
+                        "_id" : "mercedes-ben",
                         "value" : 20
                 },
                 {
